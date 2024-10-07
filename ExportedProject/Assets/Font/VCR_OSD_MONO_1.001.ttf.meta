@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 3bc3c4af99f28b24792afa2cf5b3abbf
+timeCreated: 1728258225
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  name:
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: VCR OSD Mono
+  fontNames:
+  - VCR OSD Mono
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:
