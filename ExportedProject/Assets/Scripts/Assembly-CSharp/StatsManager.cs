@@ -21,7 +21,7 @@ public class StatsManager : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.T))
+		if (Input.GetKeyDown(KeyCode.R))
 		{
 			Restart();
 		}

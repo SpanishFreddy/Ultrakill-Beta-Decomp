@@ -72,7 +72,8 @@ public class CameraController : MonoBehaviour
 
 	private void Update()
 	{
-		if (player == null)
+        Cursor.lockState = CursorLockMode.Locked;
+        if (player == null)
 		{
 			player = GameObject.FindWithTag("Player");
 		}
@@ -117,18 +118,6 @@ public class CameraController : MonoBehaviour
 		else
 		{
 			base.transform.localEulerAngles = new Vector3(0f - rotationX + additionalRotationX, 0f, movementHor * -5f);
-		}
-		if (Input.GetKeyDown(KeyCode.F1))
-		{
-			if (Cursor.lockState != CursorLockMode.Locked)
-			{
-				Cursor.lockState = CursorLockMode.Locked;
-			}
-			else
-			{
-				Cursor.lockState = CursorLockMode.None;
-				Cursor.visible = true;
-			}
 		}
 		if (Input.GetKey(KeyCode.O))
 		{
